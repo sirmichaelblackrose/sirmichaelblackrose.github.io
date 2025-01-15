@@ -1,1 +1,0 @@
-# sirmichaelblackrose.github.io
