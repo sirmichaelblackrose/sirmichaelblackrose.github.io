@@ -75,6 +75,7 @@
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #6610f2;
   --bs-link-hover-color: #6f42c1;
+  --bs-link-hidden-color : #d3d3d3;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -253,7 +254,9 @@ a {
 a:hover {
   color: var(--bs-link-hover-color);
 }
-
+a.hidden {
+  color: var(--bs-link-hidden-color)
+}
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
